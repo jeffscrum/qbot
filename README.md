@@ -73,10 +73,10 @@
 docker run -d \
   --name qbot1 \
   --restart=unless-stopped \
-  -v $(pwd)/bot.cfg:/qbot/bot.cfg:ro \
-  -v $(pwd)/game_files:/qbot/game_files \
-  -v $(pwd)/saves:/qbot/saves \
-  -v $(pwd)/logs:/qbot/logs \
+  -v $(pwd)/bot.cfg:/bot/bot.cfg:ro \
+  -v $(pwd)/game_files:/bot/game_files \
+  -v $(pwd)/saves:/bot/saves \
+  -v $(pwd)/logs:/bot/logs \
   -v /etc/localtime:/etc/localtime:ro \
   jeffscrum/qbot:1.10.0
 ```
