@@ -10,7 +10,7 @@
 
 ### Общая структура файлов бота
 ```
-/qbot
+/bot
 ├── bot.cfg
 ├── game_files
 ├── game_script.cfg
