@@ -21,7 +21,7 @@
 │   ├── log4j-api-2.7.jar
 │   ├── log4j-core-2.7.jar
 │   ├── slf4j-simple-1.7.30.jar
-│   └── telegrambots-5.6.0-jar-with-dependencies.jar
+│   └── telegrambots-6.0.1-jar-with-dependencies.jar
 ├── logs
 ├── qbot.jar
 └── saves
